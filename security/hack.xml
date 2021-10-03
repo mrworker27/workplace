@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE title [
 <!ELEMENT title ANY >
-<!ENTITY a SYSTEM "https://google.com/">]>
+<!ENTITY a "https://google.com/">]>
 <rss version="2.0">
 <channel>
   <title>W3Schools Home Page</title>
