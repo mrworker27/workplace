@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE sample [
-        <!ENTITY file SYSTEM "file:///etc/passwd">
-]>
+<!DOCTYPE foo [
+<!ELEMENT foo ANY >
+<!ENTITY a "1337">]>
 <rss version="2.0">
 <channel>
   <title>W3Schools Home Page</title>
@@ -13,7 +13,7 @@
     <description>New RSS tutorial on W3Schools</description>
   </item>
   <item>
-    <title>&file;</title>
+    <title>&a;</title>
     <link>https://www.w3schools.com/xml</link>
     <description>New XML tutorial on W3Schools</description>
   </item>
