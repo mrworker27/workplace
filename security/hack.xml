@@ -1,1 +1,4 @@
-<a>lol<a>
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE foo [
+<!ENTITY a "1337">]>
+<foo>&a;</foo>
